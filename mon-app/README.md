@@ -11,7 +11,7 @@ Pour installer ce projet, vous devez d'abord installer
 
 - Ouvrir la console MySQL et créer un compte ou se connecter si vous en avez déjà un
 - Créer une base de données nommée "groupomania"
-- Importer le fichier "Groupomania_DB.sql" se trouvant dans le repo du projet
+- Importer le fichier "Groupomania.sql" se trouvant dans les livrables
 
 2- Installation du Backend
 
