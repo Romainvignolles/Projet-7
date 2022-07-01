@@ -1,0 +1,114 @@
+.modif {
+    border: 5px solid $secondary;
+    border-radius: 20px;
+    background-color:$primary;
+    padding: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 70%;
+
+    &__postTitle {
+        height: 20px;
+        width: 100%;
+        border-radius: 50px;
+        border: 0px;
+        text-align: center;
+        font-weight: bold;
+        font-size: large;
+        color: $primary;
+        outline: none;
+        font-family: secular one;
+        margin-top: 10px;
+    }
+
+    &__postContent {
+        height: 50px;
+        width: 100%;
+        border-radius: 50px;
+        border: 0px;
+        text-align: center;
+        font-weight: bold;
+        font-size: large;
+        color: $primary;
+        font-family: secular one;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    &__logo {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    &__postSubmitLabel {
+        cursor: pointer;
+
+        svg {
+            margin-bottom: 10px;
+            height: 40px;
+            color: $secondary;
+        }
+
+    }
+
+    &__postFileLabel {
+        cursor: pointer;
+
+        svg {
+            margin-bottom: 10px;
+            height: 40px;
+            color: $secondary;
+        }
+
+        &--load {
+            cursor: pointer;
+
+            svg {
+                margin-bottom: 10px;
+                height: 40px;
+                color: #CDE7B0;
+            }
+        }
+
+    }
+}
+.modifOff{
+    content-visibility: hidden;
+}
+.modifPopup{
+    border-style: unset;
+    background-color: unset;
+    cursor: pointer;
+    color: $secondary;
+    margin-top: 10px;
+    height: 0px;
+
+    svg {
+        margin-bottom: 10px;
+        height: 40px;
+        color: $secondary;
+    }
+}
+.suppModifOff{
+    justify-content: space-between;
+    display: flex;
+    width: 90%;
+}
+.suppModif{
+    visibility: hidden;
+    height: 0px;
+}
+.suppPost{
+    border-style: unset;
+    background-color: unset;
+    cursor: pointer;
+    color: $secondary;
+    margin-top: 10px;
+
+    svg {
+        margin-bottom: 10px;
+        height: 40px;
+        color: $secondary;
+    }
+}

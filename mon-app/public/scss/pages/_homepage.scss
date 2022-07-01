@@ -1,0 +1,206 @@
+.homepage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+
+
+}
+
+.section {
+    z-index: 1;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+}
+
+.navbar {
+    background: $primary;
+    width: 100%;
+    display: flex;
+    z-index: 1;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 0% 0% 50% 50%;
+    border-bottom: 15px solid #BE6E46;
+    border-top: 5px solid #BE6E46;
+    box-shadow: 7px 9px 20px 0px #363537;
+    opacity: 0.95;
+
+    &_logOut {
+        border-style: unset;
+        background-color: unset;
+        cursor: pointer;
+        color: $secondary;
+        margin-right: 70%;
+        font-family: secular one;
+        display: flex;
+        align-items: center;
+        font-size: 30px;
+        letter-spacing: 1px;
+        margin-bottom: -85px;
+        margin-top: 30px;
+
+
+
+        svg {
+            margin-bottom: 10px;
+            height: 40px;
+            color: $secondary;
+        }
+    }
+
+
+    &__createPublication {
+        margin-top: 20px;
+    }
+
+    &__title {
+        margin-top: 0px;
+    }
+
+    &__profil {
+        position: absolute;
+        margin-top: 10px;
+        margin-left: 70%;
+        display: flex;
+        align-items: center;
+
+    }
+
+    &__avatar {
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+
+    }
+
+    &__name {
+        text-align: center;
+        font-weight: bold;
+        font-size: large;
+        color: $secondary;
+
+
+    }
+
+    &__post {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    &__postTitle {
+        height: 20px;
+        width: 400px;
+        border-radius: 50px;
+        border: 0px;
+        text-align: center;
+        font-weight: bold;
+        font-size: large;
+        color: $primary;
+        outline: none;
+        font-family: secular one;
+
+        &::placeholder {
+            text-align: center;
+            font-weight: bold;
+            font-size: large;
+            font-family: secular one;
+
+
+        }
+    }
+
+    &__postContent {
+        height: 50px;
+        width: 400px;
+        border-radius: 50px;
+        border: 0px;
+        text-align: center;
+        font-weight: bold;
+        font-size: large;
+        color: $primary;
+        font-family: secular one;
+
+        &::placeholder {
+            text-align: center;
+            font-weight: bold;
+            font-size: large;
+            font-family: secular one;
+
+
+        }
+    }
+
+    &__logo {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    &__postSubmitLabel {
+        cursor: pointer;
+
+        svg {
+            margin-bottom: 10px;
+            height: 40px;
+            color: $secondary;
+        }
+
+    }
+
+    &__postFileLabel {
+        cursor: pointer;
+
+        svg {
+            margin-bottom: 10px;
+            height: 40px;
+            color: $secondary;
+        }
+
+        &--load {
+            cursor: pointer;
+
+            svg {
+                margin-bottom: 10px;
+                height: 40px;
+                color: #CDE7B0;
+            }
+        }
+
+    }
+
+
+}
+
+.actu {
+    position: relative;
+    width: 50%;
+}
+
+.removeScroll {
+    overflow: hidden;
+}
+
+.backgroundsvg {
+    z-index: 0;
+    position: fixed;
+    opacity: 1;
+    top: 57%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    left: 0%;
+    height: 50%;
+}
+
+.visible {
+    color: red;
+}
+
+.pasvisible {
+
+    visibility: hidden;
+}

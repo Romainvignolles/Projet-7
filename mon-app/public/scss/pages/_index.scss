@@ -1,0 +1,37 @@
+.backgroundimg {
+    width: 100%;
+    z-index: 0;
+    position: fixed;
+    opacity: 0.9;
+    top: 0px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.login {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &_logo {
+        position: relative;
+        z-index: 1;
+    }
+}
+
+body {
+    margin: 0px;
+    font-family: secular one;
+
+    &::-webkit-scrollbar{
+        background-color:$primary;
+        width: 25px;
+    }
+    &::-webkit-scrollbar-thumb {
+        background: $secondary;
+        border-radius: 10px;
+        border: 5px solid $primary;
+      }
+}
+

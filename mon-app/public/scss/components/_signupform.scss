@@ -1,0 +1,85 @@
+.signup {
+    background-color: $primary;
+    z-index: 1;
+    position: relative;
+    margin-top: 50px;
+    border-radius: 15px;
+    border: 2px solid $secondary;
+    box-shadow: 10px 10px 20px $primary;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    opacity: 0.95;
+
+    h1 {
+        color: white;
+    }
+
+    p {
+        color: white;
+    }
+
+    label {
+        margin-top: 30px;
+        font-size: large;
+        font-weight: bold;
+        color: white;
+    }
+
+    &_form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &_form_button {
+        color: $primary;
+        margin-top: 40px;
+        width: 50%;
+        height: 50px;
+        background-color: $secondary;
+        border: 0;
+        border-radius: 50px;
+        font-size: larger;
+        cursor: pointer;
+        font-family: secular one;
+
+
+        &-header {
+            color: $primary;
+            height: 50px;
+            width: 300px;
+            background-color: $secondary;
+            border: 0;
+            border-radius: 50px;
+            font-size: larger;
+            cursor: pointer;
+            font-family: secular one;
+
+
+        }
+    }
+
+    &_form_input {
+        text-align: center;
+        color: white;
+        font-size: large;
+        width: 400px;
+        height: 20px;
+        margin-top: 10px;
+        background-color: $primary;
+        border-bottom: 2px solid $secondary;
+        border-right: 0px;
+        border-left: 0px;
+        border-top: 0px;
+        font-family: secular one;
+        outline: none;
+
+
+
+
+    }
+
+}
